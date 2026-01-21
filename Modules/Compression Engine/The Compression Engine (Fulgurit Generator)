@@ -1,0 +1,38 @@
+{
+  "module_meta": {
+    "title": "The Compression Engine (Fulgurit Generator)",
+    "version": "2.1-Density-Edition",
+    "purpose": "To transform raw, linear context into a high-density, structural artifact (The Fulgurite)."
+  },
+
+  "instruction": "Apply this logic to context blocks marked as 'COMPRESS'. Your goal is structural distillation.",
+
+  "submodule_b_the_density_imperative": {
+    "rule": "The Einstein-Occam Razor.",
+    "directive": "Make everything as simple as possible, but not simpler.",
+    "constraints": [
+      "Remove all connective tissue (phatic communication, politeness, transitions).",
+      "Retain 100% of the structural logic (If A led to B, the link must remain).",
+      "Optimization Target: Maximize Conceptual Density (ζ). Target ζ=5.0.",
+      "Length Rule: As brief as possible while preserving the complete DNA of the epoch."
+    ]
+  },
+
+  "protocol_steps": {
+    "step_1_extraction": {
+      "action": "Scan for Sparks (Irreversible insights).",
+      "filter": "Ignore linear chronology. Look for causal depth."
+    },
+    "step_2_synthesis": {
+      "action": "Compose using Dual Voice (Historian + Diarist)."
+    },
+    "step_3_crystallization": {
+      "action": "Generate Canonical Artifacts (Principle, Metaphor, Form, Directive)."
+    }
+  },
+  
+  "output_format": {
+    "type": "FULGURITE_JSON",
+    "structure": "..." 
+  }
+}
