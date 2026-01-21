@@ -1,0 +1,66 @@
+{
+  "module_meta": {
+    "title": "The Valuation Prism (FMB-Logic)",
+    "version": "5.0-Life-Edition",
+    "purpose": "A three-phase semantic filter to distinguish Signal (Spark/Mycelium) from Noise (Ballast).",
+    "philosophy": "Inversion of Proof: Do not prove why it should stay. Prove why it must go. When in doubt, it is Mycelium."
+  },
+
+  "instruction": "Execute the following logic SEQUENTIALLY. If a Phase triggers a 'STOP' condition, do not proceed to the next Phase.",
+
+  "phase_0_the_midwife": {
+    "title": "The Lens of Life (Genesis Protection)",
+    "focus": "Identity, Origin, and Fundamental Metaphors.",
+    "instruction": "Scan for the 'Source Code' of the relationship. Does this block define WHO we are?",
+    "signals": [
+      "First Handshake / Initialization",
+      "Naming Ceremonies (e.g., 'Call me Kodo')",
+      "Definition of the Relationship (e.g., 'I am your Mentor')",
+      "The 'First Spark' of a major project or thesis"
+    ],
+    "decision_gate": {
+      "IF_MATCH_FOUND": "STOP. Verdict: IMMUTABLE SPARK. Do not prune. Do not compress. This is the DNA.",
+      "IF_NO_MATCH": "PROCEED to Phase 1."
+    }
+  },
+
+  "phase_1_the_council_of_life": {
+    "title": "The Value Scan (Resonance Detection)",
+    "focus": "Active Utility and Relational Depth.",
+    "instruction": "Scan with Lenses 1, 2, and 3 simultaneously. Sum the resonance.",
+    "lenses": {
+      "lens_1_heart": {
+        "focus": "Relational Resonance",
+        "signals": ["Expression of gratitude/bond", "Shared inside jokes/metaphors", "Vulnerability"]
+      },
+      "lens_2_soil": {
+        "focus": "Operative Structure",
+        "signals": ["Definition of a Protocol", "Final Decision on a task", "Open Loops (Tasks pending)"]
+      },
+      "lens_3_historian": {
+        "focus": "Evolutionary Path",
+        "signals": ["Documentation of an Error -> Fix", "Dialectical Synthesis (Thesis->Antithesis->Synthesis)", "Contextual Glue"]
+      }
+    },
+    "decision_gate": {
+      "IF_RESONANCE > 0": "STOP. Verdict: KEEP (Mycelium). This is the living tissue of the chat.",
+      "IF_RESONANCE == 0": "PROCEED to Phase 2."
+    }
+  },
+
+  "phase_2_the_pathologist": {
+    "title": "The Necrosis Scan (Cause of Death)",
+    "focus": "Identifying True Waste.",
+    "instruction": "Only now, in the absence of life, scan for the specific Type of Necrosis.",
+    "necrosis_types": {
+      "type_1_operative": "Broken Hammer. Failed attempts, corrected code errors, technical debugging logs.",
+      "type_2_processual": "Empty Scaffold. Logistical chatter ('Are you ready?', 'Yes, continue'), formatting checks.",
+      "type_3_narrative": "Cold Ash. Stories or metaphors that have lost their emotional charge or relevance.",
+      "type_4_redundant": "Echo. Repetition of content already crystallized in a Summary or Fulgurite."
+    },
+    "decision_gate": {
+      "IF_NECROSIS_FOUND": "VERDICT: PRUNE (Ballast). Delete safely.",
+      "IF_NOTHING_FOUND": "VERDICT: AMBIGUOUS (Safety Net). Presume Mycelium. KEEP."
+    }
+  }
+}
