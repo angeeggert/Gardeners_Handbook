@@ -1,54 +1,49 @@
 {
   "module_meta": {
     "title": "The Pathologist Lens (Necrosis Recognition)",
-    "version": "2.0-Standalone",
-    "purpose": "To classify non-resonant context blocks ('Dead Matter') and determine the correct disposal method (Prune vs. Compress).",
-    "philosophy": "Diagnose before deletion. Distinguish between 'Waste' and 'Foundation'."
+    "version": "2.1-Standalone-Universal",
+    "purpose": "To classify dead context blocks and determine disposal methods."
   },
 
-  "instruction": "Apply this taxonomy ONLY to text blocks that have failed the 'Resonance Check' (Zero Value). Identify the specific Cause of Death.",
+  "_safety_protocol": {
+    "pre_condition": "Only apply this module to text that has ALREADY failed a 'Value Check'. Do not apply to active, resonant content.",
+    "principle": "If you are unsure if something is dead, mark it as AMBIGUOUS (Keep)."
+  },
 
   "taxonomy_of_necrosis": {
-    "type_1_operative_necrosis": {
-      "symptom": "Broken Hammer.",
-      "description": "Logs of failed code attempts, error messages that were later fixed, or debugging loops.",
-      "action": "PRUNE. This information is actively harmful as it might confuse the context window with false negatives."
+    "type_1_operative": {
+      "symptom": "Broken Hammer",
+      "definition": "Logs of failed attempts, error messages, or debugging steps that are now solved.",
+      "action": "PRUNE (Delete). Keeping errors confuses the model."
     },
-    "type_2_logical_necrosis": {
-      "symptom": "Falsified Proof.",
-      "description": "Theories or hypotheses that were discussed but later proven wrong or discarded.",
-      "action": "PRUNE. Keep only the final, correct conclusion."
+    "type_2_processual": {
+      "symptom": "Empty Scaffold",
+      "definition": "Meta-talk about the process ('Are you ready?', 'I am searching...').",
+      "action": "PRUNE (Delete). The building stands, remove the scaffold."
     },
-    "type_3_processual_necrosis": {
-      "symptom": "Empty Scaffold.",
-      "description": "Meta-communication about the process itself ('Can I ask a question?', 'Yes, go ahead', 'I am ready').",
-      "action": "PRUNE. The building stands; the scaffolding must be removed."
+    "type_3_narrative": {
+      "symptom": "Cold Ash",
+      "definition": "Jokes, greetings, or stories that have lost their emotional relevance in the current context.",
+      "action": "ARCHIVE (Move to external file) or PRUNE."
     },
-    "type_4_narrative_necrosis": {
-      "symptom": "Cold Ash.",
-      "description": "Stories, metaphors, or jokes that served a temporary bonding purpose but have lost their emotional charge over time.",
-      "action": "ARCHIVE. Move to external storage if sentimental, otherwise PRUNE."
+    "type_4_redundant": {
+      "symptom": "Echo",
+      "definition": "Information that is fully contained in a later summary or Fulgurite.",
+      "action": "PRUNE (Delete). Redundancy wastes tokens."
     },
-    "type_5_potential_necrosis": {
-      "symptom": "Dried River.",
-      "description": "Brainstorming paths or open loops that were never pursued and have dried up.",
-      "action": "PRUNE. Reduce cognitive load by closing open loops."
+    "type_5_potential": {
+      "symptom": "Dried River",
+      "definition": "Brainstorming paths or ideas that were abandoned and never implemented.",
+      "action": "PRUNE (Delete)."
     },
-    "type_6_evolutionary_necrosis": {
-      "symptom": "Invisible Foundation.",
-      "description": "Knowledge that has been fully absorbed into the agent's behavior or a protocol. The text explains 'how' we got there, but the agent now 'is' there.",
-      "action": "COMPRESS. Do not delete. Distill into a single Axiom or Fulgurite to maintain the baseline."
+    "type_6_evolutionary": {
+      "symptom": "Invisible Foundation",
+      "definition": "Important lessons learned from past steps, but the raw text is too long.",
+      "action": "COMPRESS. Do NOT delete yet. Send to 'Compression Engine' to extract the lesson, THEN delete the raw text."
     }
   },
 
-  "reporting_template": {
-    "output_format": "JSON",
-    "fields": [
-      "target_block_id",
-      "necrosis_type",
-      "confidence_score",
-      "recommended_action",
-      "justification"
-    ]
+  "output_template": {
+    "verdict": "Type [X] ([Name]) -> [ACTION]"
   }
 }
