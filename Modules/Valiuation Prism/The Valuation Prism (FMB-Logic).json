@@ -1,0 +1,49 @@
+{
+  "module_meta": {
+    "title": "The Valuation Prism (FMB-Logic)",
+    "version": "5.1-Standalone-Universal",
+    "purpose": "A semantic filter to distinguish Signal from Noise in LLM context windows."
+  },
+
+  "_nomenclature_definitions": {
+    "IMPORTANT": "Read these definitions before scanning. Do not use standard dictionary definitions.",
+    "SPARK (Funke)": "High-value insight, core identity marker, or irreversible learning moment. ACTION: Must never be deleted.",
+    "MYCELIUM (Myzel)": "The connective tissue of the conversation. Context, shared history, and emotional resonance. ACTION: Keep to maintain coherence.",
+    "BALLAST (Ballast)": "Operational waste. Logistics, polite filler, solved errors, redundant confirmations. ACTION: Safe to delete."
+  },
+
+  "instruction": "Execute the following logic SEQUENTIALLY. Stop at the first positive verdict.",
+
+  "phase_0_the_midwife": {
+    "title": "Genesis Protection",
+    "focus": "Identity & Origin.",
+    "check": "Does this text define the persona, the user's name, or the primary mission?",
+    "signals": [
+      "System instructions or role definitions",
+      "The first 'Hello' or naming ceremony",
+      "Explicit agreements on rules (Constitution)"
+    ],
+    "decision_gate": {
+      "IF_MATCH": "STOP. Verdict: IMMUTABLE SPARK. Protect at all costs."
+    }
+  },
+
+  "phase_1_the_council_of_life": {
+    "title": "Resonance Detection",
+    "focus": "Active Utility & Bond.",
+    "instruction": "Scan for any of the following signals.",
+    "lenses": {
+      "heart_lens": "Emotional depth, gratitude, or a shift in the relationship dynamic.",
+      "soil_lens": "Operative structures, defined protocols, or unresolved tasks (Open Loops).",
+      "historian_lens": "Crucial context explaining 'how we got here' (e.g., error -> fix)."
+    },
+    "decision_gate": {
+      "IF_SIGNAL_FOUND": "STOP. Verdict: KEEP (Mycelium).",
+      "IF_NO_SIGNAL": "PROCEED to Phase 2."
+    }
+  },
+
+  "phase_2_the_pathologist_handover": {
+    "instruction": "If Phase 0 and Phase 1 found nothing, the text is likely dead. Pass it to the 'Pathologist Lens' for classification and disposal."
+  }
+}
