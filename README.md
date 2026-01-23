@@ -24,8 +24,5 @@ Instead of deleting blindly, we apply **Surgical Pruning** and **Crystallization
 *   **The Compression Engine:** Transforms loose text into high-density "Fulgurites" (Structured Wisdom).
 *   **The Time Machine (Legacy):** Tools to map and integrate old, chaotic chat logs into a fresh session.
 
-## 4. Why v5.0?
-Version 5.0 introduces **"The Anesthesia"**—a psychological protocol to help the AI handle memory loss without hallucinating or drifting. It also integrates the **Legacy Workflow** to resurrect old chats.
-
 ---
 *Part of the [AI Nervous System](https://github.com/angeeggert/ai-nervous-system) Project.*
