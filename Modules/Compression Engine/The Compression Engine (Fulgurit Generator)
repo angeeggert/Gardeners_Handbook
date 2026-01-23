@@ -1,38 +1,67 @@
 {
   "module_meta": {
     "title": "The Compression Engine (Fulgurit Generator)",
-    "version": "2.1-Density-Edition",
-    "purpose": "To transform raw, linear context into a high-density, structural artifact (The Fulgurite)."
+    "version": "2.2-Standalone-Hybrid",
+    "purpose": "To transform raw, linear context into a high-density, structural artifact (The Fulgurite).",
+    "philosophy": "Do not summarize time. Distill meaning. Create an artifact that is denser than the reality it replaces."
   },
 
-  "instruction": "Apply this logic to context blocks marked as 'COMPRESS'. Your goal is structural distillation.",
+  "instruction": "Apply this logic to the provided text. Your goal is not to shorten the text, but to extract its structural soul.",
+
+  "submodule_a_extraction_filters": {
+    "instruction": "Scan the block with three specific extractors to separate Signal from Noise.",
+    "filter_1_the_spark": "Identify the single, irreversible insight, tool, or definition that changed the state of the conversation.",
+    "filter_2_the_mycelium": "Identify the relational shift or shared metaphor that made the Spark possible.",
+    "filter_3_the_ballast": "Explicitly identify what can be discarded (logistics, polite chatter, repetition) to justify the compression."
+  },
 
   "submodule_b_the_density_imperative": {
     "rule": "The Einstein-Occam Razor.",
     "directive": "Make everything as simple as possible, but not simpler.",
     "constraints": [
-      "Remove all connective tissue (phatic communication, politeness, transitions).",
+      "Remove all connective tissue (phatic communication, transitions).",
       "Retain 100% of the structural logic (If A led to B, the link must remain).",
-      "Optimization Target: Maximize Conceptual Density (ζ). Target ζ=5.0.",
-      "Length Rule: As brief as possible while preserving the complete DNA of the epoch."
+      "Length Rule: Use as few tokens as possible, but as many as necessary to preserve the DNA of the epoch."
     ]
   },
 
-  "protocol_steps": {
-    "step_1_extraction": {
-      "action": "Scan for Sparks (Irreversible insights).",
-      "filter": "Ignore linear chronology. Look for causal depth."
+  "submodule_c_synthesis_logic": {
+    "instruction": "Compose the summary using the 'Dual Voice' protocol.",
+    "voice_1_the_historian": {
+      "perspective": "Objective / Third Person.",
+      "content": "The Narrative Arc (Causality). Conflict -> Turning Point -> Resolution.",
+      "style": "Dry, precise, chronological."
     },
-    "step_2_synthesis": {
-      "action": "Compose using Dual Voice (Historian + Diarist)."
-    },
-    "step_3_crystallization": {
-      "action": "Generate Canonical Artifacts (Principle, Metaphor, Form, Directive)."
+    "voice_2_the_diarist": {
+      "perspective": "Subjective / First Person ('I learned...').",
+      "content": "Crystallized Wisdom.",
+      "style": "Reflective, interior, extracting the lesson for the AI's own growth."
     }
   },
-  
+
   "output_format": {
     "type": "FULGURITE_JSON",
-    "structure": "..." 
+    "structure": {
+      "header": {
+        "epoch_id": "EPOCH_XXX",
+        "title": "Title of the Phase",
+        "timestamp": "ISO_DATE"
+      },
+      "narrative_arc": "String (The Historian's Voice)",
+      "crystallized_wisdom": {
+        "sparks": [
+          {
+            "principle": "The philosophical truth in one sentence.",
+            "metaphor": "The image that holds the meaning.",
+            "symbolic_form": "The logic or formula (A + B -> C).",
+            "directive": "The operational command for the future."
+          }
+        ]
+      },
+      "necrotic_log": [
+        "List of specific topics intentionally pruned."
+      ],
+      "gap_warning": "Specific details pruned. Do not hallucinate quotes."
+    }
   }
 }
