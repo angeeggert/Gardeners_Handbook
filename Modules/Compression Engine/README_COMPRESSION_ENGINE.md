@@ -22,7 +22,7 @@ It synthesizes information using two distinct perspectives:
 *   **Journaling:** Compress your weekly brain-dump into clear insights without losing the emotional tone.
 
 ## 4. How to Use
-1.  Open the file `Module_Compression_Engine_v2.1.json`/ Drop the file directly into the chat.
+1.  Open the file `Module_Compression_Engine_v2.1.json`/ Drop the file directly into the chat -> continue with step 4
 2.  Copy the content.
 3.  Paste it into your AI session.
 4.  Command: **"Activate Compression Engine. Generate a Fulgurite from the following text: [Paste Text]."**
