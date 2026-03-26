@@ -23,7 +23,7 @@ It prevents the accidental deletion of **Foundations** (learned lessons) while a
 *   **Meeting Notes:** Run it over a transcript to remove all the "Can you hear me?" and "Let's wait for Bob" chatter (Empty Scaffold).
 
 ## 4. How to Use
-1.  Open the file `Module_Pathologist_Lens_v2.0.json` / Drop the file directly into the chat.
+1.  Open the file `Module_Pathologist_Lens_v2.0.json` / Drop the file directly into the chat -> continue with step 4.
 2.  Copy the content.
 3.  Paste it into your AI session.
 4.  Command: **"Activate Pathologist. Identify Necrosis in the following text: [Paste Text]."**
