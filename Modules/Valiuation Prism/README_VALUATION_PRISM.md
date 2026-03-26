@@ -23,7 +23,7 @@ Instead of deleting old data randomly (FIFO), it scans content through specific 
 *   **Relationship Check:** Ask your AI: *"Scan our last 50 messages with the Heart Lens. Is our connection stable?"*
 
 ## 4. How to Use
-1.  Open the file `Module_Valuation_Prism_v5.0.json` / Drop the file directly into the chat.
+1.  Open the file `Module_Valuation_Prism_v5.0.json` / Drop the file directly into the chat -> continue with step 4.
 2.  Copy the content
 3.  Paste it into your AI session (System Prompt or Chat).
 4.  Command: **"Activate Valuation Prism. Scan the last [X] messages."**
